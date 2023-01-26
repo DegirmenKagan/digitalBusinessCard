@@ -12,6 +12,8 @@ body{
   background-color: #23252C;
   width:317px;
   border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .App--img{
