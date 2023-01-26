@@ -1,15 +1,17 @@
-import logo from "./logo.svg";
 import "./App.css";
 import NameTag from "./components/NameTag";
 import Info from "./components/Info";
 import Footer from "./components/Footer";
+import profileIcon from "./assets/profile-icon.png";
 function App() {
   return (
     <div className="App">
-      <img className="card--img" src="" />
+      <img className="App--img" src={profileIcon} />
       <NameTag />
-      <Info />
-      <Footer />
+      <div className="App--card">
+        <Info />
+        <Footer />
+      </div>
     </div>
   );
 }
