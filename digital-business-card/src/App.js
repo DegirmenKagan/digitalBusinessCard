@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <img className="App--img" src={profileIcon} />
-      <NameTag />
       <div className="App--card">
+        <NameTag />
         <Info />
         <Footer />
       </div>
