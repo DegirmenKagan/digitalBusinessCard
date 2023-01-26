@@ -6,6 +6,10 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
+      <img className="card--img" src="" />
+      <NameTag />
+      <Info />
+      <Footer />
     </div>
   );
 }
