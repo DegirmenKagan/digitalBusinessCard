@@ -19,6 +19,7 @@ body{
 }
 
 .App--card{
+  padding-top:15px; 
   background: #1A1B21;
 }
 
@@ -96,7 +97,7 @@ body{
 .info{
   color:white;
   padding:32px;
-  padding-top:0px;
+  padding-top:25px;
 }
 
 .info--header{
