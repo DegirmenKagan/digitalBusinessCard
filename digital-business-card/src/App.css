@@ -117,9 +117,14 @@ body{
 footer{
   display:flex;
   justify-content: center;
-  background-color: #14552C;
+  gap:16px;
+  background: #161619;
+  padding:10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 footer > img{
-  width:40px;
+  padding:5px;
+  width: 35px;
 }

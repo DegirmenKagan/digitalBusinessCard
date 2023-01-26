@@ -10,8 +10,8 @@ function App() {
       <div className="App--card">
         <NameTag />
         <Info />
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }
