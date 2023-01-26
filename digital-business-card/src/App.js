@@ -2,16 +2,19 @@ import "./App.css";
 import NameTag from "./components/NameTag";
 import Info from "./components/Info";
 import Footer from "./components/Footer";
-import profileIcon from "./assets/profile-icon.png";
+import UploadAndDisplayImage from "./components/UploadAndDisplayImage";
 function App() {
+  function uploadImage() {}
   return (
-    <div className="App">
-      <img className="App--img" src={profileIcon} />
-      <div className="App--card">
-        <NameTag />
-        <Info />
+    <div>
+      <div className="App">
+        <UploadAndDisplayImage />
+        <div className="App--card">
+          <NameTag />
+          <Info />
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 }

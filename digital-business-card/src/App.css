@@ -15,7 +15,7 @@ body{
 }
 
 .App--img{
-  width:317px;
+  width: 317px;
 }
 
 .App--card{
@@ -127,4 +127,9 @@ footer{
 footer > img{
   padding:5px;
   width: 35px;
+}
+
+.modal{
+  display: "block";
+  background: #FFFFFF;
 }
