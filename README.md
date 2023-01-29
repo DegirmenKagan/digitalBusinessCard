@@ -2,7 +2,7 @@
 
 Hello folks! I'll be improving this project in time.
 
-This is aimed to be a customizeable business card.  
+This is aimed to be a customizable business card.  
 
 Live version of project:
 https://digital-business-card-eosin.vercel.app/
